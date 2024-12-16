@@ -1,6 +1,6 @@
 function doGet(e) {
   
-  return HtmlService.createTemplateFromFile("Index").evaluate()
+  return HtmlService.createTemplateFromFile("index").evaluate()
   .setTitle("Semak Resit")
   .addMetaTag('viewport', 'width=device-width, initial-scale=1')
   .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
